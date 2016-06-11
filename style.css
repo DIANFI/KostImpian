@@ -35,11 +35,11 @@ body{
 
 header{
 	width:auto;
-	    height: 180px;
+	 height: 180px;
 	margin:auto;
 	border-right: 1px dashed #B5A5C0;
-    border-left: 1px dashed #B5A5C0;
-    background-color: #E7F5DC;
+    	border-left: 1px dashed #B5A5C0;
+    	background-color: #E7F5DC;
 }
 
 .logo{
@@ -574,4 +574,179 @@ ul, ol {
     margin-top: 0px;
     margin-bottom: -3px;
 }
+
+///////////////////*list kost*/
+	
+.main{
+	width :auto;
+	
+	margin:auto;
+}
+
+.left{
+	width:485;
+	border-right:5px #b5a5c0 dotted;
+	float:left;
+}
+
+.kategori{
+	width:465;
+	margin:10px;
+}
+	
+
+/*item*/
+.main-item{
+	width:900px;
+	height:155px;
+	margin:auto;
+	
+}
+
+.right-item{
+	width:360px;
+	height : 100px;
+	float:right;
+	margin : auto;
+	color:teal;
+	font-size: 13px;
+	margin-top: 20px;
+	float: right;
+}
+
+
+.harlam{
+	text-decoration: line-through;
+	float: left;
+	font-size: 12px;
+}
+
+.right-item h3 .orange-h{
+	float: left;
+	margin: 0px;
+	margin-bottom: 5px;
+	
+}
+
+.orange-h{
+	color: #F70;
+}
+
+.gura-item{
+	float: right;
+	margin-top: -29px;
+	margin-right: 66px;
+}
+
+.stok{
+	margin-top: 16px;
+	font-size: 10px;
+	font-weight: bold;
+	color: green;
+	border: 1px solid green;
+	border-radius: 5px;
+	width: 90px;
+	padding: 2px;
+	text-align: center;
+}
+
+.brand{
+	color: #9FC1D6;
+}
+
+.boxbeli-item{
+	
+	margin-top: 10px;
+	background: #white;
+	padding: 10px;
+}
+
+.pilih-item{
+	float: left;
+	margin-right: 10px;
+}
+
+.foto-item{
+	width: 90%;
+	height: 300px;
+	background: url("img/waw.jpg") center center no-repeat;
+	margin-top :20px;
+}
+
+.box-item{
+	
+	float: left;
+	margin-right: 14px;
+}
+
+.box-item img{
+	width: 94px;
+}
+
+.main_hotlist{
+	height:900px;
+	
+}
+
+.main_hotList  .box_hotList{
+	
+		width:900px;
+		margin:0 auto;
+		border :5px solid #red;	
+
+		
+	}
+.main_hotList  .box_hotList .left_hotList{
+		width:600px;
+		height:auto;
+		margin-right:100px;
+		padding-left :10px;
+		margin-top :10px;
+		float:left;
+		margin-bottom:10px;
+		
+		background-color :white ;
+		font-size : 15px;
+				
+	}
+.Lokasi{
+	font-size:30px;
+	font-family : "Trebuchet MS",Helvetica,sans-serif;
+	color : Gray;
+	
+}
+
+.Lokasi1{
+	font-size:30px;
+	font-family : "Trebuchet MS",Helvetica,sans-serif;
+	color : Gray;
+	
+}
+
+.Harga{
+	font-size:25px;
+	font-family : "Comic Sans MS",Helvetica,sans-serif;
+}
+
+.fas{	font-size:15px;
+	font-family: fixedsys, monospace;
+}
+	
+.gam{
+	width: 50px;
+	float:left;
+	margin-left : 10px;
+	margin-bottom : 20px;
+}
+
+
+	
+	
+	
+
+
+
+
+
+
 
