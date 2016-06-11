@@ -454,8 +454,23 @@ footer .isi_footer .footer_1 ul, footer .isi_footer .footer_2 ul{margin-top:30px
 	height: 0px;
 	padding-top:20px;
 }
+.form-pendaftaran{
+	width: 800px;
+	margin: auto;
+	min-height: 270px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	box-shadow: 2px 1px 1px #eee;
+	padding: 20px;
+	color: #34495E;
+}
 
-
+.main-aktivasi{
+	width:820px;
+	margin:auto;
+	height: 0px;
+	padding-top:20px;
+}
 
 /*kategori Kos*/
 .main_katagori{
