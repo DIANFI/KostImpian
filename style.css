@@ -25,6 +25,22 @@ li .kategori-box{
 	box-sizing:unset;
 }
 
+.dropdown-akun{
+	top: 111px;
+	left: 792px;
+	border: none;
+	border-radius:0px 0px 5px 5px;
+	box-shadow: 1px 1px 4px #ccc;
+}
+.dropdown-akun li a{
+	color: #34495E;	
+}
+
+.dropdown-akun hr{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 body{
 	width:auto;
 	font-family:Arial, Helvetica, sans-serif;
@@ -58,11 +74,11 @@ header{
 	}
 	
 .logo img{
-	width:93px;
-	height:auto;
-	margin-bottom:-33px;
-	margin-top: 30px;;
-	margin-left:0px;
+	width: 119px;
+	height: auto;
+	margin-bottom: -35px;
+	margin-top: 10px;
+	margin-left: 0px;
 }
 
 .login {
@@ -72,7 +88,7 @@ header{
     height: 50px;
     margin-top: -23px;
     background: #1B5A2B;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px 10px 0px 0px;
     font-size: 15px;
 }
@@ -454,8 +470,23 @@ footer .isi_footer .footer_1 ul, footer .isi_footer .footer_2 ul{margin-top:30px
 	height: 0px;
 	padding-top:20px;
 }
+.form-pendaftaran{
+	width: 800px;
+	margin: auto;
+	min-height: 270px;
+	border: 1px solid #ccc;
+	border-radius:5px;
+	box-shadow: 2px 1px 1px #eee;
+	padding: 20px;
+	color: #34495E;
+}
 
-
+.main-aktivasi{
+	width:820px;
+	margin:auto;
+	height: 0px;
+	padding-top:20px;
+}
 
 /*kategori Kos*/
 .main_katagori{
