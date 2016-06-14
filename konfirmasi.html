@@ -2,14 +2,18 @@
 <head>
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css"><title>Kos Impian- Cari Kos itu gak Ribbet</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/haha.png"/>
+<title>Kos Impian- Cari Kos itu gak Ribbet</title>
 </head>
 <body>
     <header>
         <div class="logo">
-            <li><a href="index.html"><img src="img/logokost.png"></a></li>
+            <li><a href="index.html"><img src="img/Kos.png"></a></li>
             <p>Cari Kos Itu Gak Ribet</p>
+            
             <!-- <button >Bootstrap Modal</button> -->
+
 
             <div class="login"><img src="img/user-alt-128.png"><a data-toggle="modal" data-target=".bs-example-modal-sm" href="">Masuk</a> / <a href="daftar.html" style="color:#ff7700"> Daftar</a></div>
         </div>
@@ -20,26 +24,55 @@
             
         </div>
     </nav>
-    <div class="main-daftar">
+    
+    
+    <div class="main-konfirmasi">
+        <div class="bayar">
         
-        
-      <div class="main-aktivasi">
-        <div class="form-pendaftaran">
-        
-            <h3>Aktivasi</h3>
-            <div class="keterangan-daftar">Saat ini kami telah mengirimkan sebuah email yang berisi petunjuk aktivasi akun Anda. Silakan periksa kembali email Anda. </div><br>
-            <div class="keterangan-daftar">
-            Apabila dalam waktu 5 menit Anda belum juga mendapatkan email yang berisi petunjuk aktivasi akun Anda, silakan klik tombol di bawah ini:</div>
-                <button type="button" class="tombol-daftar btn btn-primary">Kirim Ulang Email Aktivasi</button> 
+            <h4>Terimakasih telah, Anda melakukan chekout pemesanan dengan memilih pembayaran tranfer manual</h4><br>
+            <div class="box-konfirmasi">Jumlah yang harus di bayar <h2>Rp 1,000,000</h2></div><hr><br>
+            <div class="opsi-bayar">
+            <b>Agar pesanan Anda dapat diproses, ikuti langkah berikut ini:</b><br><br>
+            1. Transfer sejumlah Rp 1,000,000 ke salah satu nomor rekening Guri di bawah ini:<br>
+              <div class="box-bayar"><img height="39px" src="img/bank/bca.png">
+              <b>Bank BCA</b><br>
+              Cab. Kedoya<br>
+              321 100 0001<br>
+              a/n PT. Guri</div>
+              <div class="box-bayar"><img height="39px" src="img/bank/bni.png">
+              <b>Bank BNI</b><br>
+              Cab. Kebon Jeruk<br>
+              801 100 0009<br>
+              a/n PT. Guri</div>
+              <div class="box-bayar"><img height="35px" src="img/bank/bri.png">
+              <b>Bank BRI</b><br>
+              Cab. Kedoya<br>
+              002 101 12345<br>
+              a/n PT. Guri</div>
+              <div class="box-bayar"><img height="39px" src="img/bank/mandiri.png"><br>
+              <b>Bank Mandiri</b><br>
+              Cab. Kebon Jeruk<br>
+              8102 000 5263873<br>
+              a/n PT. Guri</div><br>
+            <br><br><br><br><br><br><br><br>
+            2. Setelah melakukan transfer, segera lakukan Konfirmasi Pembayaran. Pembayaran tanpa melakukan konfirmasi tidak dapat kami proses lebih lanjut. Pastikan Anda mengisi data yang tepat saat melakukan <b>konfirmasi pembayaran</b>.<br><br>
+            3. Pesanan akan otomatis dibatalkan dalam waktu 3 hari jika Anda tidak melakukan pembayaran dan konfirmasi pembayaran.
+            <button type="button" data-toggle="modal" data-target=".bs-example-modal-lg" class="tombol-daftar btn btn-primary">Konfirmasi Pembayaran</button>
+
             </div>
+
+            
         </div>
 
             
     </div>
 
-            
+    <div class="background">
+    	<div class="mikro">
+    		<div class="car"></div>
+		</div>            
     </div>
-       <footer>
+    <footer>
         <div class="isi_footer">
             <div class="footer_2">
                 <ul>
@@ -50,18 +83,18 @@
             </div>
             <div class="footer_1">
                 <ul>
-                    <li><b>Kos Impian</b></li>
+                    <li><b>Guri</b></li>
                     <li><a href="">Tentang Kami</a></li>
                     <li><a href="">Karir</a></li>
                      <li><a href="">Blog</a></li>
-                      <li><a href="">Kisah Pengguna</a></li>
+                      <li><a href="">Kisah penjual</a></li>
                 </ul>
             </div>
             <div class="footer_1">
                 <ul>
                     <li><b>Beli</b></li>
-                    <li><a href="">Cari Kost</a></li>
-                    <li><a href="">Cara </a></li>
+                    <li><a href="">Belanja di Guri</a></li>
+                    <li><a href="">Cara Belanja</a></li>
                      <li><a href="">Pembayaran</a></li>
                       <li><a href="">Hot List</a></li>
                 </ul>
@@ -90,35 +123,122 @@
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
           <h4 class="modal-title" id="mySmallModalLabel">Login</h4>
         </div>
+
+
         <div class="modal-body">
           <input type="text" placeholder="Email" class="masukan">
           <br>
           <br>
           <input type="password" placeholder="Kata sandi" class="masukan"><br><br>
-          <a href="masuk.html"><button class="btn btn-primary" type="submit">Login</button></a>
+          <button class="btn btn-primary" type="submit">Login</button>
           <span class="lupa">Lupa Password ?</div>
         </div>
       </div>
     </div>
   </div>
-
+  <!-- cart -->
   <!-- cart -->
   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
     <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
-          <h4 class="modal-title" id="mySmallModalLabel">Troli Anda</h4>
+          <h3 class="modal-title" id="mySmallModalLabel">Konfirmasi Pembayaran</h3>
         </div>
-        <div class="isi-troli">
-            Troli anda kosong, silakan berbelanja.<br><br>
-            <button class="btn btn-primary" type="submit">Lanjutkan belanja</button>
+        <div class="isi-troli-item2">
+        <table width=100% cellspacing=10>
+                <tr>
+                  <td width=25%>Invoice</td>
+                  <td width=75%>INV/20150621/XV/VI/13667875</td>
+                </tr> 
+                <tr>
+                  <td width=25%>Total Tagihan</td>
+                  <td width=75%>Rp 1,000,000</td>
+                </tr>        
+                <tr>
+                <td width=25%>Nama Pengirim</td>
+                <td width=75%><input type="text" placeholder="nama yang tertera pada rekening" class="masukan-daftar"></td>
+                </tr>
+                <tr><td width=25%>Tanggal Pembayaran</td>
+                <td width=75%>
+                        <select name="day" class="masukan-daftar-ttl">
+                        <option value="na">Tanggal</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                        </select>
+
+                        <select name="month" class="masukan-daftar-ttl">
+                        <option value="na">Bulan</option>
+                        <option value="1">Januari</option>
+                        <option value="2">Februari</option>
+                        <option value="3">Maret</option>
+                        <option value="4">April</option>
+                        <option value="5">Mei</option>
+                        <option value="6">Juni</option>
+                        <option value="7">Juli</option>
+                        <option value="8">Augustus</option>
+                        <option value="9">September</option>
+                        <option value="10">Oktober</option>
+                        <option value="11">November</option>
+                        <option value="12">Desember</option>
+                        </select>
+
+                        <select name="year" class="masukan-daftar-ttl">
+                        <option value="na">Tahun</option>
+                        <option value="2015">2015</option>                      
+                        </select></td>
+                </tr>
+                </table>
+            <hr>
+            <table width=100% cellspacing=10>
+                <tr>
+                <td width=25%>Rekening Tujuan</td>
+                <td width=75%><input type="radio" name="sex" value="male">&nbsp;BCA &nbsp; &nbsp; &nbsp;<input type="radio" name="sex" value="male">&nbsp;BNI&nbsp; &nbsp; &nbsp;
+                <input type="radio" name="sex" value="male">&nbsp;BRI &nbsp; &nbsp; &nbsp;<input type="radio" name="sex" value="male">&nbsp;Mandri  <td> 
+                </tr>
+                <tr>
+                <td width=25%>Jumlah yang di bayar</td>
+                <td width=75%><input type="text" placeholder="Masukan jumlah pembayaran tanpa tanda titik atau koma" class="masukan-daftar"></td> 
+                </tr>              
+                </table>      
+                <hr>  
+                <a href="index-2.html"><button type="button" data-toggle="modal" data-target=".bs-example-modal-lg" class="tombol-daftar btn btn-primary">Selesai</button></a>
+            </div>
         </div>
     </div>
   </div>
 </div>
   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script> 

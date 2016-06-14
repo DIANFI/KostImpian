@@ -222,14 +222,14 @@ nav{
 	margin-top:10px;
 	color: white;
 }
-.main_3{
-	padding: 20px;
-	margin-top: 6px;
-	width:auto;
-	height: 280px;
-	margin-left: 23px;
-	margin-right: 23px;
-	margin-bottom: 30px;
+.main_3 {
+    padding: 20px;
+    margin-top: 6px;
+    width: auto;
+    height: 280px;
+    margin-left: 44px;
+    margin-right: 23px;
+    margin-bottom: 30px;
 }
 .main_4 {
     padding: 20px;
@@ -311,14 +311,15 @@ footer .isi_footer{
 	background-color:yellow;
 	margin:0 auto;
 }	
-.footer_1{
-	width:166px;
-	height:50px;
-	float:left;
-	color: black;
-	font-size: 13px;
-	margin-right: -15px;
-	margin-top: 15px;
+.footer_1 {
+    width: 166px;
+    height: 50px;
+    float: left;
+    color: black;
+    margin-left: 18px;
+    font-size: 13px;
+    margin-right: -16px;
+    margin-top: 36px;
 }
 
 .footer_1 li:hover{
@@ -337,23 +338,24 @@ footer .isi_footer{
 	color: black;
 }
 
-.footer_3{
-	width:150px;
-	height:50px;
-	float:left;
-	margin-left: -20px;
-	margin-top: 43px;
-	margin-right: 25px;
-	text-align: center;
-	font-weight: bold;
-	color: claxk;
-	    margin-left: 70px;
+.footer_3 {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-left: -20px;
+    margin-top: 66px;
+    margin-right: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: claxk;
+    margin-left: 70px;
 }
 
-.logo-footer{
-	width: 150px;
-	height: 140px;
-	background: url("img/guri3.png") center center no-repeat;
+.logo-footer {
+    width: 256px;
+    height: 159px;
+    margin-left: -35px;
+    background: url("img/haha.png") left center no-repeat;
 }
 
 .logo-footer:hover{
@@ -447,19 +449,18 @@ footer .isi_footer .footer_1 ul, footer .isi_footer .footer_2 ul{margin-top:30px
 	border: 1px solid #e1e1e1;
 }
 
-.tombol-daftar{
-	min-width: 200px;
-	background: #34495E;
-	color: white;
-	text-align:center;
-	min-height: 55px;
-	padding: 10px;
-	font-weight: bold;
-	font-size: 24px;
-	margin: auto;
-	margin-top: 30px;
-	border-radius:5px;
-
+.tombol-daftar {
+    min-width: 224px;
+    background: #34495E;
+    color: white;
+    text-align: center;
+    min-height: 55px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
 }
 
 .tombol-daftar:hover{
@@ -587,25 +588,26 @@ footer .isi_footer .footer_1 ul, footer .isi_footer .footer_2 ul{margin-top:30px
 	width:607px;
 	margin-bottom:20px;
 }
-.main_katagori .main_katagori_right .main_katagori_right_isi .main_katagori_right_isi_3 .main_katagori_right_isi_3_1{
-	height:219px;
-	margin-right:15px;
-	margin-left:15px;
-	background:#FFFFFF;
-	width:170px;;
-	float:left;
-	border:solid 0.5px #D8D5D5;
-	margin-bottom:20px;
+.main_katagori .main_katagori_right .main_katagori_right_isi .main_katagori_right_isi_3 .main_katagori_right_isi_3_1 {
+    height: 231px;
+    padding-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background: #FFFFFF;
+    width: 170px;
+    float: left;
+    border: solid 0.5px #D8D5D5;
+    margin-bottom: 20px;
 }
-.main_katagori .main_katagori_right .main_katagori_right_isi .main_katagori_right_isi_3 .main_katagori_right_isi_3_1 li{
-	font-size:12px;
-	padding-bottom:0;
-	padding-left:6px;
-	color:#0B9240;
-	padding-right:5px;
-	padding-bottom:5px;
+.main_katagori .main_katagori_right .main_katagori_right_isi .main_katagori_right_isi_3 .main_katagori_right_isi_3_1 li {
+    font-size: 12px;
+    padding-bottom: 0;
+    padding-left: 4px;
+    padding-right: 23px;
+    color: #0B9240;
+    padding-right: 5px;
+    padding-bottom: 5px;
 }
-
 ul, ol {
     margin-top: 0px;
     margin-bottom: -3px;
@@ -790,7 +792,7 @@ ul, ol {
 
 .left-akun {
     width: 521px;
-    height: 375px;
+    height: 415px;
     float: left;
     padding-left: 10px;
     border: 1px solid #ccc;
@@ -1004,10 +1006,59 @@ ul, ol {
 
 	
 	
-	
+	/*bayar*/
+.main-bayar {
+    height: 700px;
+    width: 820px;
+    margin: auto;
+    padding-top: 20px;
+}
+.bayar{
+	width: 100%;
+	color: #34495E;
+}
+
+.opsi-bayar{
+	height: 300px;
+	color: #909090;
+
+}
+
+.box-bayar{
+	width: 20%;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	margin-right: 100px;
+}
+.bayar hr{
+	margin-bottom: -12px
+}
 
 
 
+/*konfirmasi*/
+.box-konfirmasi{
+	width: 240px;
+	padding: 10px;
+	border: 1px solid #eee ;
+	background:white;
+	text-align: center;
+	margin: auto;
+	border-radius:5px; 
+}
+
+.main-konfirmasi {
+    height: 900px;
+    width: 820px;
+    margin: auto;
+    padding-top: 20px;
+}
+td {
+    background: none repeat scroll 0% 0% white;
+}
 
 
 
